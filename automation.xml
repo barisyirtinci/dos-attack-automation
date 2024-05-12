@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<automaton>
+    <states>
+        <state id="s0"/>
+        <state id="s1"/>
+        <state id="s2"/>
+        <state id="s3"/>
+        <state id="s4"/>
+        <state id="s5"/>
+        <state id="s6"/>
+        <state id="s7"/>
+        <state id="s8" accepting="true"/>
+    </states>
+    <initial id="s0"/>
+    <alphabet>
+        <symbol>X</symbol>
+        <symbol>P</symbol>
+        <symbol>C</symbol>
+        <symbol>A</symbol>
+        <symbol>N</symbol>
+        <symbol>E</symbol>
+    </alphabet>
+    <transitions>
+        <transition>
+            <from>s0</from>
+            <to>s1</to>
+            <read>X</read>
+        </transition>
+        <transition>
+            <from>s1</from>
+            <to>s2</to>
+            <read>P</read>
+        </transition>
+        <transition>
+            <from>s2</from>
+            <to>s3</to>
+            <read>C</read>
+        </transition>
+        <transition>
+            <from>s3</from>
+            <to>s4</to>
+            <read>A</read>
+        </transition>
+        <transition>
+            <from>s3</from>
+            <to>s8</to>
+            <read>E</read>
+        </transition>
+        <transition>
+            <from>s4</from>
+            <to>s5</to>
+            <read>N</read>
+        </transition>
+        <transition>
+            <from>s5</from>
+            <to>s2</to>
+            <read>P</read>
+        </transition>
+        <transition>
+            <from>s5</from>
+            <to>s8</to>
+            <read>E</read>
+        </transition>
+    </transitions>
+</automaton>

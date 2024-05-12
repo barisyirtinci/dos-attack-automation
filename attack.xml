@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Attacks>
+    <Attack>
+        <IpAddress>192.168.1.1</IpAddress>
+        <CommonPorts>false</CommonPorts>
+        <PortNumbers>
+            <PortNumber>21</PortNumber>
+            <PortNumber>80</PortNumber>
+        </PortNumbers>
+        <Duration>5</Duration>
+        <Power>80</Power>
+    </Attack>
+    <Attack>
+        <IpAddress>127.0.0.1</IpAddress>
+        <CommonPorts>false</CommonPorts>
+        <PortNumbers>
+            <PortNumber>21</PortNumber>
+            <PortNumber>80</PortNumber>
+        </PortNumbers>
+        <Duration>2</Duration>
+        <Power>80</Power>
+    </Attack>
+</Attacks>
